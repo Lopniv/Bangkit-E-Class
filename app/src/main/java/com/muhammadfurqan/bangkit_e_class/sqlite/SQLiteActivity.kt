@@ -68,7 +68,7 @@ class SQLiteActivity : AppCompatActivity(), BookAdapter.Listener {
         btnRead.setOnClickListener {
             onRead()
         }
-        //onRead()
+        onRead()
     }
 
     private fun onCancel() {
@@ -118,6 +118,8 @@ class SQLiteActivity : AppCompatActivity(), BookAdapter.Listener {
             rvBookList.visibility = INVISIBLE
             tvNotFound.visibility = VISIBLE
         } else {
+            rvBookList.visibility = VISIBLE
+            tvNotFound.visibility = INVISIBLE
             showBookList(bookList)
         }
     }

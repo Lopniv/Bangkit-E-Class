@@ -17,4 +17,8 @@
     <string name="login_label">Login</string>
     <string name="read_data_label">Read Data</string>
     <string name="read_contacts_label">Read Contacts</string>
+    <string name="go_to_book_database">Go to book database</string>
+    <string name="text_book">Text book</string>
+    <string name="books_not_found">Books Not Found!</string>
+    <string name="update_data">Update</string>
 </resources>
